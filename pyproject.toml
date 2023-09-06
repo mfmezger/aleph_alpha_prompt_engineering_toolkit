@@ -8,12 +8,15 @@ packages = [{include = "prompt_engineer"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-aleph-alpha-client = "^3.1.4"
-langchain = "^0.0.221"
-wandb = "^0.15.4"
+aleph-alpha-client = "^3.4.1"
+langchain = "^0.0.281"
+wandb = "^0.15.9"
 python-dotenv = "^1.0.0"
 jinja2 = "^3.1.2"
-loguru = "^0.7.0"
+loguru = "^0.7.1"
+pandas = "^2.1.0"
+textstat = "^0.7.3"
+spacy = "^3.6.1"
 
 
 [build-system]
